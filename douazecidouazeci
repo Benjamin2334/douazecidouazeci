@@ -1,0 +1,54 @@
+#include <iostream>
+
+using namespace std;
+int nr, fr[10001], n, ok=0;
+int main()
+{
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cin>>nr;
+        fr[nr]++;
+    }
+    for(int i=1;i<=n;i++){
+ if(fr[2020]>=1){
+     ok=1;
+ }
+ if(fr[2]==1 and fr[1010]>=1){
+     ok=1;
+ }
+ if(fr[4]>=1 and fr[505]>=1){
+     ok=1;
+ }
+if(fr[5]==1 and fr[404]>=1){
+     ok=1;
+ }
+ if(fr[10]>=1 and fr[202]>=1){
+     ok=1;
+ }
+  if(fr[20]>=1 and fr[101]>=1){
+ok=1;
+ }
+ if(fr[2]>=2 and fr[505]>=1){
+     ok=1;
+ }
+if(fr[2]>=1 and fr[5]>=1 and fr[202]>=1){
+     ok=1;
+ }
+ if(fr[2]>=2 and fr[101]>=1 and fr[5]>=1){
+     ok=1;
+ }
+ if(fr[4]>=1 and fr[101]>=1 and fr[5]>=1){
+     ok=1;
+ }
+ if(fr[2]>=1 and fr[101]>=1 and fr[10]>=1){
+     ok=1;
+ }
+}
+if(ok==1){
+    cout<<"DA";
+}
+else{
+    cout<<"NU";
+}
+    return 0;
+}
